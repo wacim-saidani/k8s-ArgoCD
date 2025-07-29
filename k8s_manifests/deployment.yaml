@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable-bookworm
+        image: nginx
         ports:
         - containerPort: 80
